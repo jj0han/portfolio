@@ -1,0 +1,20 @@
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+.github__logo {
+    fill: black;
+}
+
+.linkedin__logo {
+    fill: #0A66C2;
+}
+
+.instagram__logo {
+    fill: #E1306C;
+}
+
+.curriculo__logo {
+    fill: red;
+}
