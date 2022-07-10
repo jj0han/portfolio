@@ -1,0 +1,9 @@
+.skills__grid {
+    width: calc(100% - 20px);
+    height: calc(100% - 70px);
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column-gap: 20px;
+}

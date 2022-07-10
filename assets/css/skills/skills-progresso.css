@@ -1,0 +1,15 @@
+.skills__progresso {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: calc(100% - 41px);
+    border-radius: 0 0 7px 7px;
+}
+
+.skills__progresso:hover {
+    transition: 0.3s;
+    opacity: 1;
+}

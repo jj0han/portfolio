@@ -2,5 +2,6 @@
     display: block;
     margin: auto;
     height: 10vh;
-    padding: 10px;
+    padding: 5%;
+    opacity: 0.7;
 }

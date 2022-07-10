@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João Bomfim</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link rel="stylesheet" href="assets/css/subtitulo.css">
     <link rel="stylesheet" href="assets/css/svg-logos.css">
     <link rel="stylesheet" href="assets/css/seta.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
@@ -13,7 +15,6 @@
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="assets/css/principal.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-img.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-titulo.css">
@@ -21,7 +22,16 @@
     <link rel="stylesheet" href="assets/css/inicio/inicio-descricao.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-lista.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-link.css">
-    
+    <link rel="stylesheet" href="assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="assets/css/sobre/sobre-descricao.css">
+    <link rel="stylesheet" href="assets/css/skills/skills.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-grid.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-containers..css">
+    <link rel="stylesheet" href="assets/css/skills/skills-logo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-info.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-name.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-progresso.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -60,24 +70,73 @@
         </section>
         <img class="seta" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMSAyMS44ODNsLTYuMjM1LTcuNTI3LS43NjUuNjQ0IDcuNTIxIDkgNy40NzktOS0uNzY0LS42NDUtNi4yMzYgNy41Mjl2LTIxLjg4NGgtMXYyMS44ODN6Ii8+PC9zdmc+">
         <section class="sobre">
-            <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, beatae. Modi sed vero perferendis minima fuga nobis atque ab. A molestias omnis deserunt maiores in corporis porro cupiditate error eum!</p>
+            <h2 class="sobre__titulo subtitulo">Sobre mim</h2>
+            <p class="sobre__descricao">Eu tenho 19 anos e desde pequeno sempre tive interesse por tecnologias, principalmente na área da programação e desenvolvimento. Por isso, escolhi a área de TI para seguir carreira, e dedico meu tempo para construir meu futuro, mas sempre aproveitando também o tempo presente. Cursando Sistemas para Internet pelo IFMS Campo Grande, atualmente no terceiro semestre.</p>
         </section>
         <section class="skills">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis natus, maiores odit esse, minus molestias qui quaerat, nam possimus error ipsam repellendus laborum hic unde fuga aliquid doloremque vitae at.</p>
-        </section>
-        <section class="hobbies">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis atque suscipit natus, neque explicabo architecto placeat beatae, illum quod ad totam fugit expedita eaque iste! Accusamus accusantium consequuntur iste delectus?</p>
+            <h2 class="skills__titulo subtitulo">Skills</h2>
+            <div class="skills__grid">
+                <div class="skills__javascript skills__containers">
+                    <img class="skills__logo" src="assets/img/javascript-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">JavaScript</p>
+                        <div class="skills__progresso">Iniciante</div>
+                    </div>
+                </div>
+                <div class="skills__html skills__containers">
+                    <img class="skills__logo" src="assets/img/html-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">HTML</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+                <div class="skills__css skills__containers">
+                    <img class="skills__logo" src="assets/img/css-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">CSS</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+                <div class="skills__sql skills__containers">
+                    <img class="skills__logo" src="assets/img/sql-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">SQL</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+                <div class="skills__java skills__containers">
+                    <img class="skills__logo" src="assets/img/java-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">Java</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+                <div class="skills__python skills__containers">
+                    <img class="skills__logo" src="assets/img/python-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">Python</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+                <div class="skills__git skills__containers">
+                    <img class="skills__logo" src="assets/img/git-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">Git</p>
+                        <p>Iniciante</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="formacao">
-            <h2>Formação Acadêmica</h2>
+            <h2 class="subtitulo">Formação Acadêmica</h2>
         </section>
         <section class="projetos">
-            <h2>Projetos</h2>
+            <h2 class="subtitulo">Projetos</h2>
         </section>
     </main>
     <footer class="rodape">
         <p>Joao Bomfim</p>
     </footer>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>
