@@ -1,3 +1,10 @@
+:root {
+    --linkedin: #0A66C2;
+    --instagram: #E1306C;
+    --titulo: rgb(48, 48, 48);
+    --texto: rgb(58, 58, 58);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +15,17 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
+a, p {
+    color: var(--texto);
+}
+
 body {
     margin: auto;
 }
+
+/* section {
+    padding: 10vh 20px 20px 20px;
+} */
 
 @media screen and (min-width: 0){
     body {

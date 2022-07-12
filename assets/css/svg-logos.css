@@ -8,13 +8,20 @@ svg {
 }
 
 .linkedin__logo {
-    fill: #0A66C2;
+    fill: var(--linkedin);
 }
 
 .instagram__logo {
-    fill: #E1306C;
+    fill: var(--instagram);
 }
 
 .curriculo__logo {
     fill: red;
+}
+
+@media screen and (max-width: 290px){
+    svg {
+        width: 25px;
+        height: 25px;
+    }
 }

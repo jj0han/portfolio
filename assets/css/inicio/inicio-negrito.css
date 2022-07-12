@@ -1,3 +1,8 @@
 .inicio__negrito {
-    color: blue;
+    color: rgb(70, 104, 215);
+    display: block;
+}
+
+.inicio__negrito:nth-child(2) {
+    color: rgb(119, 21, 155);
 }

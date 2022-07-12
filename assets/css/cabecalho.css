@@ -8,13 +8,13 @@
 
 .logo {
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
 }
 
-.logo::before {
+/* .logo::before {
     content: "<";
 }
 
 .logo::after {
     content: "/>";
-}
+} */

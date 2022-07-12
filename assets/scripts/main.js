@@ -1,19 +1,10 @@
-// define a function that sets min-height of my-element to window.innerHeight:
+let i = 0;
+const logo = document.querySelector(".logo") 
 
-const setHeight = () => {
-    document.getElementsByClassName("view").style.minHeight = window.innerHeight + "px"
-};
-
-// define mobile screen size:
-
-let deviceWidth = window.matchMedia("(max-width: 1024px)");
-
-if (deviceWidth.matches) {
-// set an event listener that detects when innerHeight changes:
-
-    window.addEventListener("resize", setHeight);
-
-// call the function once to set initial height:
-
-    setHeight();
-}
+document.addEventListener("DOMContentLoaded", function typeW() {
+    nome = "<João Bomfim/>"
+    vel = Math.floor(Math.random()*150) + 50
+    setTimeout(typeW, vel)
+    logo.innerHTML += nome.charAt(i)
+    i++
+})

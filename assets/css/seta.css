@@ -4,4 +4,31 @@
     height: 10vh;
     padding: 5%;
     opacity: 0.7;
+    animation: animation 2s infinite;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0%);
+    }
+
+    15% {
+        transform: translateY(10%);
+    }
+
+    25% {
+        transform: translateY(0%);
+    }
+
+    35% {
+        transform: translateY(10%);
+    }
+
+    60% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
 }
