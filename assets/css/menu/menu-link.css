@@ -1,4 +1,10 @@
 .menu__link {
     padding: 10px;
-    font-weight: 100;
+    
+    border-radius: 100%;
+}
+
+.menu__link:hover {
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.204);
 }

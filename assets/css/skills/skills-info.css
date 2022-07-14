@@ -7,4 +7,5 @@
     position: relative;
     padding-top: 20%;
     text-align: center;
+    z-index: -2;
 }

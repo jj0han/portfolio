@@ -1,16 +1,23 @@
 .skills__progresso {
+    /* animation: animate 8s linear infinite;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, yellow, black, yellow);
+    background-size: 400%; */
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: white;
-    background-color: green;
+    color: var(--titulo);
     width: 100%;
     height: calc(100% - 38px);
     border-radius: 0 0 7px 7px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
-.skills__progresso:hover {
-    transition: 0.3s;
-    opacity: 1;
-}
+@keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }

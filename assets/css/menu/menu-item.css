@@ -2,5 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20%;
+    margin: 10px 0;
+}
+
+.menu__item:first-child {
+    margin-top: 0;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0    ;
 }

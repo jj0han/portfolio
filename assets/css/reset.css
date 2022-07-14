@@ -1,8 +1,11 @@
 :root {
+    --nome: rgb(53, 83, 183);
+    --frontend: rgb(102, 17, 133);
     --linkedin: #0A66C2;
     --instagram: #E1306C;
     --titulo: rgb(48, 48, 48);
     --texto: rgb(58, 58, 58);
+    --bgBody: rgb(245, 245, 245);
 }
 
 * {
@@ -13,13 +16,19 @@
     text-decoration: none;
     list-style-type: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
-a, p {
+button {
+    background-color: transparent;
+}
+
+a, p, h3 {
     color: var(--texto);
 }
 
 body {
+    background-color: var(--bgBody);
     margin: auto;
 }
 

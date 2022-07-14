@@ -1,0 +1,11 @@
+.menu__botao {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    z-index: 2;
+}
+
+.menu__botao > img {
+    display: block;
+}

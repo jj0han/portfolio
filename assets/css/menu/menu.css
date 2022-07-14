@@ -1,8 +1,7 @@
 @media screen and (min-width: 0){
     .menu {
-        width: 30px;
-        height: 30px;
-        display: block;
+        position: fixed;
+        z-index: 2;
     }
 }
 
