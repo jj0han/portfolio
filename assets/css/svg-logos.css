@@ -1,23 +1,24 @@
 svg {
     width: 30px;
     height: 30px;
+    fill: var(--svg)
 }
 
-.github__logo {
-    fill: black;
+/* .github__logo {
+    fill: var(--svg);
 }
 
 .linkedin__logo {
-    fill: var(--linkedin);
+    fill: var(--svg);
 }
 
 .instagram__logo {
-    fill: var(--instagram);
+    fill: var(--svg);
 }
 
 .curriculo__logo {
-    fill: red;
-}
+    fill: var(--svg);
+} */
 
 @media screen and (max-width: 290px){
     svg {

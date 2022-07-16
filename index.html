@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="assets/css/menu/menu-logos.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-switch.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-img.css">
     <link rel="stylesheet" href="assets/css/inicio/inicio-titulo.css">
@@ -39,6 +40,8 @@
     <link rel="stylesheet" href="assets/css/formacao/formacao-card.css">
     <link rel="stylesheet" href="assets/css/formacao/formacao-logos.css">
     <link rel="stylesheet" href="assets/css/formacao/formacao-info.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="assets/css/classes-especiais.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -53,6 +56,11 @@
                 <li class="menu__item"><a class="menu__link" href="#skills"><img class="menu__logos" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9Ikljb25zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMjsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTI4LjYsMTNjLTEuNiwwLjItMy4xLTAuNS00LTJjLTAuOC0xLjQtMC43LTMuMiwwLjMtNC40Yy0xLjUtMS40LTMuMy0yLjQtNS4yLTNDMTkuMSw1LDE3LjcsNiwxNiw2ICBzLTMuMS0xLTMuNy0yLjVjLTIsMC42LTMuOCwxLjYtNS4yLDNDOCw3LjgsOC4yLDkuNiw3LjMsMTFjLTAuOCwxLjQtMi40LDIuMi00LDJjLTAuMiwxLTAuNCwyLTAuNCwzYzAsMSwwLjEsMi4xLDAuNCwzICBjMS42LTAuMiwzLjEsMC41LDQsMmMwLjgsMS40LDAuNywzLjItMC4zLDQuNGMxLjUsMS40LDMuMywyLjQsNS4yLDNjMC42LTEuNCwyLTIuNSwzLjctMi41czMuMSwxLDMuNywyLjVjMi0wLjYsMy44LTEuNiw1LjItMyAgYy0wLjktMS4yLTEuMS0zLTAuMy00LjRjMC44LTEuNCwyLjQtMi4yLDQtMmMwLjItMSwwLjQtMiwwLjQtM0MyOSwxNSwyOC45LDEzLjksMjguNiwxM3oiLz48cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIxMSwxMyA4LDE2IDExLDE5ICIvPjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjIxLDEzIDI0LDE2IDIxLDE5ICIvPjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeDI9IjE0IiB5MT0iMTIiIHkyPSIyMCIvPjwvc3ZnPg==" alt="Skills"></a></li>
                 <li class="menu__item"><a class="menu__link" href="#formacao"><img class="menu__logos" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9Ikljb25zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMjsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30KPC9zdHlsZT48cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjE2LDQgMSwxMiAxNiwyMCAzMSwxMiAiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNywxNS4yVjIyYzAsMi4yLDQsNSw5LDVjNSwwLDktMi44LDktNXYtNi44Ii8+PGxpbmUgY2xhc3M9InN0MCIgeDE9IjMxIiB4Mj0iMzEiIHkxPSIxMiIgeTI9IjI1Ii8+PC9zdmc+" alt="Formação"></a></li>
                 <li class="menu__item"><a class="menu__link" href="#projetos"><img class="menu__logos" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9Ikljb25zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMjsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+PGxpbmUgY2xhc3M9InN0MCIgeDE9IjMiIHgyPSIyOSIgeTE9IjExIiB5Mj0iMTEiLz48Zz48cGF0aCBkPSJNNyw5QzYuNyw5LDYuNSw4LjksNi4zLDguN0M2LjEsOC41LDYsOC4zLDYsOGMwLTAuMywwLjEtMC41LDAuMy0wLjdjMCwwLDAuMS0wLjEsMC4xLTAuMWMwLjEsMCwwLjEtMC4xLDAuMi0wLjEgICBDNi43LDcsNi43LDcsNi44LDdjMC4xLDAsMC4zLDAsMC40LDBjMC4xLDAsMC4xLDAsMC4yLDAuMWMwLjEsMCwwLjEsMC4xLDAuMiwwLjFjMCwwLDAuMSwwLjEsMC4xLDAuMWMwLjEsMC4xLDAuMiwwLjIsMC4yLDAuMyAgIEM4LDcuNyw4LDcuOSw4LDhjMCwwLjEsMCwwLjMtMC4xLDAuNEM3LjksOC41LDcuOCw4LjYsNy43LDguN0M3LjUsOC45LDcuMyw5LDcsOXoiLz48L2c+PGc+PHBhdGggZD0iTTEwLDlDOS43LDksOS41LDguOSw5LjMsOC43QzkuMSw4LjUsOSw4LjMsOSw4YzAtMC4xLDAtMC4zLDAuMS0wLjRjMC4xLTAuMSwwLjEtMC4yLDAuMi0wLjNjMC4xLTAuMSwwLjItMC4yLDAuMy0wLjIgICBDMTAsNi45LDEwLjQsNywxMC43LDcuM2MwLjEsMC4xLDAuMiwwLjIsMC4yLDAuM0MxMSw3LjcsMTEsNy45LDExLDhjMCwwLjMtMC4xLDAuNS0wLjMsMC43QzEwLjUsOC45LDEwLjMsOSwxMCw5eiIvPjwvZz48Zz48cGF0aCBkPSJNMTMsOWMtMC4xLDAtMC4zLDAtMC40LTAuMWMtMC4xLTAuMS0wLjItMC4xLTAuMy0wLjJjLTAuMS0wLjEtMC4yLTAuMi0wLjItMC4zQzEyLDguMywxMiw4LjEsMTIsOGMwLTAuMSwwLTAuMywwLjEtMC40ICAgYzAuMS0wLjEsMC4xLTAuMiwwLjItMC4zYzAuNC0wLjQsMS0wLjQsMS40LDBjMC4xLDAuMSwwLjIsMC4yLDAuMiwwLjNDMTQsNy43LDE0LDcuOSwxNCw4YzAsMC4xLDAsMC4zLTAuMSwwLjQgICBjLTAuMSwwLjEtMC4xLDAuMi0wLjIsMC4zQzEzLjUsOC45LDEzLjMsOSwxMyw5eiIvPjwvZz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjcsNUg1QzMuOSw1LDMsNS45LDMsN3YxOGMwLDEuMSwwLjksMiwyLDJoMjJjMS4xLDAsMi0wLjksMi0yVjdDMjksNS45LDI4LjEsNSwyNyw1eiIvPjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjExLDE2IDgsMTkgMTEsMjIgIi8+PHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMjEsMTYgMjQsMTkgMjEsMjIgIi8+PGxpbmUgY2xhc3M9InN0MCIgeDE9IjE4IiB4Mj0iMTQiIHkxPSIxNSIgeTI9IjIzIi8+PC9zdmc+" alt="Projetos"></a></li>
+            </ul>
+            <ul class="menu__lista">
+                <button class="menu__item menu__switch">
+                    <img class="menu__link menu__link--switch" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PHBhdGggZD0iTTI2NCw0ODBBMjMyLDIzMiwwLDAsMSwzMiwyNDhDMzIsMTU0LDg2LDY5LjcyLDE2OS42MSwzMy4zM2ExNiwxNiwwLDAsMSwyMS4wNiwyMS4wNkMxODEuMDcsNzYuNDMsMTc2LDEwNC42NiwxNzYsMTM2YzAsMTEwLjI4LDg5LjcyLDIwMCwyMDAsMjAwLDMxLjM0LDAsNTkuNTctNS4wNyw4MS42MS0xNC42N2ExNiwxNiwwLDAsMSwyMS4wNiwyMS4wNkM0NDIuMjgsNDI2LDM1OCw0ODAsMjY0LDQ4MFoiLz48L3N2Zz4=" alt="">
+                </button>
             </ul>
         </nav>
     </header>
@@ -80,10 +88,13 @@
         <section id="sobre" class="spacer sobre">
             <h2 class="subtitulo">Sobre mim</h2>
             <p class="sobre__descricao">
-                Graduando em Sistemas para internet pelo Instituto Federal de Mato Grosso do Sul (IFMS) e participante do projeto Oracle Next Education na Alura.
+                Meu nome é João Victor Vieira Bomfim, tenho 19 anos. Nasci e cresci em Brasília-DF, e após me formar no Colégio Militar de Brasília (CMB), meu pai, que é militar do exército foi transferido para Campo Grande-MS em janeiro de 2021, onde moro atualmente.
             </p>
             <p class="sobre__descricao">
-                Eu tenho 19 anos e desde pequeno sempre tive interesse por tecnologias, principalmente na área da programação e desenvolvimento. Por isso, escolhi a área de TI para seguir carreira, e dedico meu tempo para construir meu futuro, mas sempre aproveitando também o tempo presente. Cursando Sistemas para Internet pelo IFMS Campo Grande, atualmente no terceiro semestre.
+                Desde pequeno sempre tive muito interesse por tecnologias. Então, decidi explorar o mundo da programação, e aos 17 anos, eu me decidi que eu iria seguir carreira na área de TI.
+            </p>
+            <p class="sobre__descricao">
+                Atualmente estou cursando Sistemas para Internet pelo Instituto Federal de Mato Grosso do Sul (IFMS), atualmente no terceiro semestre e participante do projeto Oracle Next Education na Alura.
             </p>
         </section>
         <section id="skills" class="spacer skills">
@@ -93,7 +104,7 @@
                     <img class="skills__logo" src="assets/img/javascript-logo.png" alt="">
                     <div class="skills__info">
                         <p class="skills__name">JavaScript</p>
-                        <div class="skills__progresso">Iniciante</div>
+                        <div class="skills__progresso"></div>
                     </div>
                 </div>
                 <div class="skills__html skills__containers">
@@ -141,24 +152,30 @@
                     <img class="formacao__logos" src="assets/img/ifms-logo.png" alt="Logo do IFMS">
                     <div class="formacao__info">
                         <h3 class="formacao__curso">Sistemas para Internet</h3>
-                        <p class="formacao__instituicao">2021 - Instituto Federal de Mato Grosso do Sul</p>
+                        <p class="formacao__instituicao">07/2021 - atualmente | Instituto Federal de Mato Grosso do Sul</p>
                     </div>
                 </div>
                 <div class="formacao__card">
                     <img class="formacao__logos" src="assets/img/alura-logo.png" alt="Logo da Alura">
                     <div class="formacao__info">
                         <h3 class="formacao__curso">Front-end ONE</h3>
-                        <p class="formacao__instituicao">Alura + Oracle</p>
+                        <p class="formacao__instituicao">2022 - atualmente | Alura + Oracle</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="spacer projetos">
+        <section id="projetos" class="spacer projetos">
             <h2 class="subtitulo">Projetos</h2>
         </section>
     </main>
     <footer class="rodape">
         <p>Joao Bomfim</p>
+        <a href="https://github.com/jj0han" target="_blank" rel="external">
+            <svg class="github__logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/joão-bomfim-957a04237/" target="_blank" rel="external">
+            <svg class="linkedin__logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
     </footer>
     <script src="assets/scripts/main.js"></script>
 </body>

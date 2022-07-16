@@ -2,7 +2,3 @@
     color: var(--nome);
     display: block;
 }
-
-.inicio__negrito:nth-child(2) {
-    color: var(--frontend);
-}

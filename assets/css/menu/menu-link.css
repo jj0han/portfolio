@@ -1,7 +1,12 @@
 .menu__link {
     padding: 10px;
-    
     border-radius: 100%;
+    filter: var(--seta);
+    transition: 0.3s;
+}
+
+.menu__link--switch {
+    width: 100%;
 }
 
 .menu__link:hover {

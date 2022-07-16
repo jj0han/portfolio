@@ -1,11 +1,15 @@
 :root {
     --nome: rgb(53, 83, 183);
-    --frontend: rgb(102, 17, 133);
     --linkedin: #0A66C2;
     --instagram: #E1306C;
+    --svg: rgb(58, 58, 58);
     --titulo: rgb(48, 48, 48);
     --texto: rgb(58, 58, 58);
     --bgBody: rgb(245, 245, 245);
+    --BW: white;
+    --BWShadow: 0px 3px 5px rgb(0 0 0 / 30%);
+    --BgMenu: #d4d4d482;
+    --BordaMenu: rgba(0, 0, 0, 0.13);
 }
 
 * {
@@ -19,6 +23,25 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+body {
+    background-color: var(--bgBody);
+    margin: auto;
+    transition: 0.5s;
+}
+
+body.dark {
+    --titulo: rgb(245, 245, 245);
+    --texto: rgb(245, 245, 245);
+    --svg: rgb(245, 245, 245);
+    --bgBody: rgb(42, 42, 42);
+    --BW: rgb(36, 36, 36);
+    --BWShadow: 0px 3px 5px rgba(160, 160, 160, 0.3);
+    --seta: invert(1);
+    --BgMenu: #00000082;
+    --BordaMenu: rgba(255, 255, 255, 0.212);
+    transition: 0.5s;
+}
+
 button {
     background-color: transparent;
 }
@@ -26,15 +49,6 @@ button {
 a, p, h3 {
     color: var(--texto);
 }
-
-body {
-    background-color: var(--bgBody);
-    margin: auto;
-}
-
-/* section {
-    padding: 10vh 20px 20px 20px;
-} */
 
 @media screen and (min-width: 0){
     body {

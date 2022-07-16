@@ -1,5 +1,20 @@
 .formacao__card {
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    box-shadow: var(--BWShadow);
+    background-color: var(--BW);
     border-radius: 7px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (min-width: 768px){
+    .formacao__card {
+        width: 40%;
+        flex-wrap: wrap;
+    }
 }

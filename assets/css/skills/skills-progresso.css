@@ -1,23 +1,8 @@
 .skills__progresso {
-    /* animation: animate 8s linear infinite;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(90deg, yellow, black, yellow);
-    background-size: 400%; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--titulo);
-    width: 100%;
-    height: calc(100% - 38px);
-    border-radius: 0 0 7px 7px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--titulo);
+  width: 100%;
+  height: calc(100% - 38px);
 }
-
-@keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
