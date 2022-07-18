@@ -1,7 +1,7 @@
 .formacao__card {
     box-shadow: var(--BWShadow);
     background-color: var(--BW);
-    border-radius: 7px;
+    border-radius: var(--borderRadius);
     transform: translateY(100px);
     opacity: 0;
     transition: 0.8s;

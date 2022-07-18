@@ -1,5 +1,5 @@
 .skills__info {
-    border-radius: 7px;
+    border-radius: var(--borderRadius);
     box-shadow: var(--BWShadow);
     background-color: var(--BW);
     bottom: 20%;

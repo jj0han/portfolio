@@ -4,4 +4,10 @@
     justify-content: space-between;
     height: 70vh;
     padding: 0 20px;
+    position: relative;
+    /* background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-pintura-grunge_1409-1337.jpg?w=2000"); 
+    background-image: url("https://i.gifer.com/iCg.gif");
+    background-position: center;
+    background-size: 100vh;
+    */
 }

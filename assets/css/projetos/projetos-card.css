@@ -1,0 +1,5 @@
+.projetos__card {
+    background-color: var(--BW);
+    box-shadow: var(--BWShadow);
+    border-radius: var(--borderRadius);
+}

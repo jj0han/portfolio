@@ -10,6 +10,7 @@
     --BWShadow: 0px 3px 5px rgb(0 0 0 / 30%);
     --BgMenu: #d4d4d482;
     --BordaMenu: rgba(0, 0, 0, 0.13);
+    --borderRadius: 7px;
 }
 
 * {
@@ -23,6 +24,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bgBody);
     margin: auto;
@@ -33,8 +38,8 @@ body.dark {
     --titulo: rgb(245, 245, 245);
     --texto: rgb(245, 245, 245);
     --svg: rgb(245, 245, 245);
-    --bgBody: rgb(42, 42, 42);
-    --BW: rgb(36, 36, 36);
+    --bgBody: rgb(36, 36, 36);
+    --BW: rgb(42, 42, 42);
     --BWShadow: 0px 3px 5px rgba(160, 160, 160, 0.3);
     --seta: invert(1);
     --BgMenu: #00000082;
@@ -48,6 +53,17 @@ button {
 
 a, p, h3 {
     color: var(--texto);
+}
+
+.scroll {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media screen and (min-width: 0){

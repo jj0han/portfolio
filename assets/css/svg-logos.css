@@ -4,22 +4,6 @@ svg {
     fill: var(--svg)
 }
 
-/* .github__logo {
-    fill: var(--svg);
-}
-
-.linkedin__logo {
-    fill: var(--svg);
-}
-
-.instagram__logo {
-    fill: var(--svg);
-}
-
-.curriculo__logo {
-    fill: var(--svg);
-} */
-
 @media screen and (max-width: 290px){
     svg {
         width: 25px;
