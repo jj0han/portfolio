@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João Bomfim</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/principal.css">
     <link rel="stylesheet" href="assets/css/subtitulo.css">
     <link rel="stylesheet" href="assets/css/svg-logos.css">
@@ -41,9 +41,12 @@
     <link rel="stylesheet" href="assets/css/formacao/formacao-logos.css">
     <link rel="stylesheet" href="assets/css/formacao/formacao-info.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos-containers.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-card.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-img.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-info.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos-tags.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos-links.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape.css">
 </head>
 <body>
@@ -69,8 +72,10 @@
     </header>
     <main class="principal">
         <section class="inicio">
-            <img class="inicio__img" src="assets/img/logo.png" alt="">
-            <h1 class="inicio__titulo">Olá, meu nome é <strong class="inicio__negrito">João Bomfim</strong> e eu sou aspirante a desenvolvedor <strong class="inicio__negrito">front-end</strong></h1>
+            <div>
+                <img class="inicio__img" src="assets/img/logo.png" alt="">
+                <h1 class="inicio__titulo">Olá, meu nome é <strong class="inicio__negrito">João Bomfim</strong> e eu sou aspirante a desenvolvedor <strong class="inicio__negrito">front-end</strong></h1>
+            </div>
             <!-- <p class="inicio__descricao"></p> -->
             <ul class="inicio__lista">
                 <li class="inicio__item"><a class="inicio__link" href="https://github.com/jj0han" target="_blank" rel="external">
@@ -82,7 +87,7 @@
                 <li class="inicio__item"><a class="inicio__link" href="https://wa.me/5561996878883" target="_blank" rel="external">
                     <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M381.953,-0.001c3.073,0 9.216,0 13.824,0.512c11.264,0 26.112,1.024 32.768,2.56c10.24,2.048 19.968,5.12 27.648,9.216c9.728,4.608 17.92,10.752 25.6,18.432c7.168,7.168 13.312,15.36 17.92,25.088c4.096,7.68 7.168,17.408 9.216,27.648c1.536,6.656 2.56,21.504 3.072,32.768l0,265.729c0,3.072 0,9.216 -0.512,13.824c0,11.264 -1.024,26.112 -2.56,32.768c-2.048,10.24 -5.12,19.968 -9.216,27.648c-4.608,9.728 -10.752,17.92 -18.432,25.6c-7.168,7.168 -15.36,13.312 -25.088,17.92c-7.68,4.096 -17.408,7.168 -27.648,9.216c-6.656,1.536 -21.504,2.56 -32.768,3.072l-265.728,0c-3.072,0 -9.216,0 -13.824,-0.512c-11.264,0 -26.112,-1.024 -32.768,-2.56c-10.24,-2.048 -19.968,-5.12 -27.648,-9.216c-9.728,-4.608 -17.92,-10.752 -25.6,-18.432c-7.168,-7.168 -13.312,-15.36 -17.92,-25.088c-4.096,-7.68 -7.168,-17.408 -9.216,-27.648c-1.536,-6.656 -2.56,-21.504 -3.072,-32.768l0,-265.729c0,-3.072 0,-9.216 0.512,-13.824c0,-11.264 1.024,-26.112 2.56,-32.768c2.048,-10.24 5.12,-19.968 9.216,-27.648c4.608,-9.728 10.752,-17.92 18.432,-25.6c7.168,-7.168 15.36,-13.312 25.088,-17.92c7.68,-4.096 17.408,-7.168 27.648,-9.216c6.656,-1.536 21.503,-2.56 32.768,-3.072l265.728,0Zm8.696,122.563c-34.457,-34.486 -80.281,-53.487 -129.103,-53.507c-100.595,0 -182.468,81.841 -182.508,182.437c-0.013,32.156 8.39,63.546 24.361,91.212l-25.892,94.545l96.75,-25.37c26.657,14.535 56.67,22.194 87.216,22.207l0.075,0c100.586,0 182.465,-81.852 182.506,-182.448c0.019,-48.751 -18.946,-94.59 -53.405,-129.076Zm-129.102,280.709l-0.061,0c-27.22,-0.011 -53.917,-7.32 -77.207,-21.137l-5.539,-3.287l-57.413,15.056l15.325,-55.959l-3.608,-5.736c-15.184,-24.145 -23.203,-52.051 -23.192,-80.704c0.033,-83.611 68.083,-151.635 151.756,-151.635c40.517,0.016 78.603,15.811 107.243,44.474c28.64,28.663 44.404,66.764 44.389,107.283c-0.035,83.617 -68.083,151.645 -151.693,151.645Zm83.207,-113.573c-4.56,-2.282 -26.98,-13.311 -31.161,-14.832c-4.18,-1.521 -7.219,-2.282 -10.259,2.282c-3.041,4.564 -11.78,14.832 -14.44,17.875c-2.66,3.042 -5.32,3.423 -9.88,1.14c-4.561,-2.281 -19.254,-7.095 -36.672,-22.627c-13.556,-12.087 -22.709,-27.017 -25.369,-31.581c-2.66,-4.564 -0.283,-7.031 2,-9.304c2.051,-2.041 4.56,-5.324 6.84,-7.986c2.28,-2.662 3.04,-4.564 4.56,-7.606c1.52,-3.042 0.76,-5.705 -0.38,-7.987c-1.14,-2.282 -10.26,-24.72 -14.06,-33.848c-3.701,-8.889 -7.461,-7.686 -10.26,-7.826c-2.657,-0.132 -5.7,-0.16 -8.74,-0.16c-3.041,0 -7.98,1.141 -12.161,5.704c-4.18,4.564 -15.96,15.594 -15.96,38.032c0,22.438 16.34,44.116 18.62,47.159c2.281,3.043 32.157,49.089 77.902,68.836c10.88,4.697 19.374,7.501 25.997,9.603c10.924,3.469 20.866,2.98 28.723,1.806c8.761,-1.309 26.98,-11.029 30.781,-21.677c3.799,-10.649 3.799,-19.777 2.659,-21.678c-1.139,-1.902 -4.179,-3.043 -8.74,-5.325Z" id="WhatsApp-Logo-Icon" style="fill-rule:nonzero;"/></svg>
                 Whatsapp</a></li>
-                <li class="inicio__item"><a class="inicio__link" href="assets/files/Currículo.pdf" download="curriculo">
+                <li class="inicio__item"><a class="inicio__link" href="assets/files/João Victor.pdf" download="joao-bomfim">
                     <svg class="curriculo__logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.267 14.68c-.184 0-.308.018-.372.036v1.178c.076.018.171.023.302.023.479 0 .774-.242.774-.651 0-.366-.254-.586-.704-.586zm3.487.012c-.2 0-.33.018-.407.036v2.61c.077.018.201.018.313.018.817.006 1.349-.444 1.349-1.396.006-.83-.479-1.268-1.255-1.268z"/><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM9.498 16.19c-.309.29-.765.42-1.296.42a2.23 2.23 0 0 1-.308-.018v1.426H7v-3.936A7.558 7.558 0 0 1 8.219 14c.557 0 .953.106 1.22.319.254.202.426.533.426.923-.001.392-.131.723-.367.948zm3.807 1.355c-.42.349-1.059.515-1.84.515-.468 0-.799-.03-1.024-.06v-3.917A7.947 7.947 0 0 1 11.66 14c.757 0 1.249.136 1.633.426.415.308.675.799.675 1.504 0 .763-.279 1.29-.663 1.615zM17 14.77h-1.532v.911H16.9v.734h-1.432v1.604h-.906V14.03H17v.74zM14 9h-1V4l5 5h-4z"/></svg>
                 Currículo</a></li>
             </ul>
@@ -107,6 +112,13 @@
                     <img class="skills__logo" src="assets/img/javascript-logo.png" alt="">
                     <div class="skills__info">
                         <p class="skills__name">JavaScript</p>
+                        <div class="skills__progresso"></div>
+                    </div>
+                </div>
+                <div class="skills__containers scroll">
+                    <img class="skills__logo" src="assets/img/react-logo.png" alt="">
+                    <div class="skills__info">
+                        <p class="skills__name">ReactJS</p>
                         <div class="skills__progresso"></div>
                     </div>
                 </div>
@@ -169,9 +181,68 @@
         </section>
         <section id="projetos" class="spacer projetos">
             <h2 class="subtitulo">Projetos</h2>
-            <div class="projetos__container skills__containers">
-                <nav class="projetos__menu">
-                </nav>
+            <div class="projetos__containers">
+                <div class="projetos__card scroll">
+                    <img class="projetos__img" src="assets/img/travel-journal.png" alt="">
+                    <div class="projetos__info">
+                        <h3 class="projetos__titulo">
+                            Travel Journal
+                        </h3>
+                        <p class="projetos__descricao">
+                            Implementação de desing, reutilização de componentes e array de dados usando framework ReactJS. Segundo desafio solo do curso de ReactJS do Scrimba.
+                        </p>
+                        <div class="projetos__tags">
+                            <div class="tag projetos__tags--js">JavaScript</div>
+                            <div class="tag projetos__tags--react">ReactJS</div>
+                            <div class="tag projetos__tags--html">HTML</div>
+                            <div class="tag projetos__tags--css">CSS</div>
+                        </div>
+                        <div class="projetos__links">
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/travel-journal" target="_blank">Repositório</a>
+                            <a class="projetos__link--demo" href="https://jj0han.github.io/travel-journal/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos__card scroll">
+                    <img class="projetos__img" src="assets/img/business-card.png" alt="">
+                    <div class="projetos__info">
+                        <h3 class="projetos__titulo">
+                            Digital Business Card
+                        </h3>
+                        <p class="projetos__descricao">
+                            Componentização com ReactJS. Primeiro desafio solo do curso de ReactJS do Scrimba.
+                        </p>
+                        <div class="projetos__tags">
+                            <div class="tag projetos__tags--js">JavaScript</div>
+                            <div class="tag projetos__tags--react">ReactJS</div>
+                            <div class="tag projetos__tags--html">HTML</div>
+                            <div class="tag projetos__tags--css">CSS</div>
+                        </div>
+                        <div class="projetos__links">
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/business-card" target="_blank">Repositório</a>
+                            <a class="projetos__link--demo" href="https://jj0han.github.io/business-card/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos__card scroll">
+                    <img class="projetos__img" src="assets/img/cev.png" alt="">
+                    <div class="projetos__info">
+                        <h3 class="projetos__titulo">
+                            Curiosidades Android
+                        </h3>
+                        <p class="projetos__descricao">
+                            Implementação de desing. Desafio do curso de HTML e CSS do Curso em Vídeo.
+                        </p>
+                        <div class="projetos__tags">
+                            <div class="tag projetos__tags--html">HTML</div>
+                            <div class="tag projetos__tags--css">CSS</div>
+                        </div>
+                        <div class="projetos__links">
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/cev-android" target="_blank">Repositório</a>
+                            <a class="projetos__link--demo" href="https://jj0han.github.io/cev-android/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="projetos__card scroll">
                     <img class="projetos__img" src="assets/img/python.webp" alt="">
                     <div class="projetos__info">
@@ -179,32 +250,13 @@
                             Cadastro de pessoas
                         </h3>
                         <p class="projetos__descricao">
-                            sistema de cadastro de pessoas feito com Python
+                            Aplicativo de console simples de cadastro de pessoas.
                         </p>
                         <div class="projetos__tags">
-                            <span class="projetos__span">Python</span>
+                            <div class="tag projetos__tags--python">Python</div>
                         </div>
                         <div class="projetos__links">
-                            <a class="projetos__link--repositorio" href="">Repositório</a>
-                            <a class="projetos__link--demo" href="">Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="projetos__card scroll">
-                    <img class="projetos__img" src="assets/img/python.webp" alt="">
-                    <div class="projetos__info">
-                        <h3 class="projetos__titulo">
-                            Interface Python
-                        </h3>
-                        <p class="projetos__descricao">
-                            Interface que recebe dados e mostra eles na saída, feita com a boblioteca PyAutoGUI.
-                        </p>
-                        <div class="projetos__tags">
-                            <span class="projetos__span">Python</span>
-                        </div>
-                        <div class="projetos__links">
-                            <a class="projetos__link--repositorio" href="">Repositório</a>
-                            <a class="projetos__link--demo" href="">Demo</a>
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han" target="_blank">Repositório</a>
                         </div>
                     </div>
                 </div>
@@ -212,12 +264,15 @@
         </section>
     </main>
     <footer class="rodape">
-        <p>Joao Bomfim</p>
+        <small>Copyright &copy; 2022 Joao Bomfim.</small>
         <a href="https://github.com/jj0han" target="_blank" rel="external">
-            <svg class="github__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
         </a>
         <a href="https://www.linkedin.com/in/joão-bomfim-957a04237/" target="_blank" rel="external">
-            <svg class="linkedin__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="mailto:joaovieirabomfim@gmail.com" target="_blank" rel="external">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z"/></svg>
         </a>
     </footer>
     <script src="assets/scripts/main.js"></script>

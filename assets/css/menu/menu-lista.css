@@ -18,6 +18,32 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    @keyframes menu-off {
+        0% {
+            transition: 1s;
+            right: 11px;
+        }
+    
+        100% {
+            transition: 1s;
+            right: -100px;
+        }
+    }
+    
+    @keyframes menu-in {
+        0% {
+            transition: 1s;
+            right: -100px;
+        }
+    
+        100% {
+            transition: 1s;
+            right: 100px;
+        }
+    }
+}
+
 @keyframes menu-off {
     0% {
         transition: 1s;

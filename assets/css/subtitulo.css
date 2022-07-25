@@ -5,3 +5,9 @@
     padding: 20px 0;
     text-align: center;
 }
+
+@media screen and (min-width: 768px){
+    .subtitulo {
+        font-size: 1.7rem;
+    }
+}

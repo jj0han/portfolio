@@ -2,3 +2,10 @@
     height: 100vh;
     padding: 0 20px;
 }
+
+@media screen and (min-width: 768px){
+    .skills {
+        width: 80%;
+        margin: auto;
+    }
+}

@@ -1,12 +1,21 @@
 .inicio__img {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
     border-radius: 100%;
+    display: block;
+    margin: 20px auto;
+    width: 40%;
 }
 
 @media screen and (max-width: 375px){
     .inicio__img {
         padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .inicio__img {
+        border-radius: 10px;
+        margin: 0;
+        object-fit: cover;
+        width: 300px;
     }
 }

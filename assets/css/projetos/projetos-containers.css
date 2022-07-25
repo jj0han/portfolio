@@ -1,0 +1,5 @@
+.projetos__containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

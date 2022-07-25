@@ -51,7 +51,7 @@ button {
     background-color: transparent;
 }
 
-a, p, h3 {
+a, p, h3, small {
     color: var(--texto);
 }
 
@@ -72,7 +72,7 @@ a, p, h3 {
     }
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     body {
         width: 90%;
     }
@@ -82,4 +82,4 @@ a, p, h3 {
     body {
         width: 80%;
     }
-}
+} */

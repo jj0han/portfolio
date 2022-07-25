@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (min-width: 768px){
+    .inicio__lista {
+        width: 50%;
+    }
+}

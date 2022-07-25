@@ -10,3 +10,9 @@
     z-index: -2;
     transition: 0.5s;
 }
+
+@media screen and (min-width: 768px){
+    .skills__info {
+        width: 200px;
+    }
+}

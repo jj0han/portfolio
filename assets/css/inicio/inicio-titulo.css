@@ -1,17 +1,21 @@
-.inicio__titulo {
-    font-weight: 700;
-    color: var(--titulo);
-    text-align: center;
-}
-
-@media screen and (min-width: 376px){
+@media screen and (min-width: 0px){
     .inicio__titulo {
-        font-size: 2.7rem;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--titulo);
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 400px){
     .inicio__titulo {
-        font-size: 2rem;
+        font-size: 2.7rem;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .inicio__titulo {
+        max-width: 490px;
     }
 }

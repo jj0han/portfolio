@@ -1,0 +1,37 @@
+.projetos__tags {
+    margin-top: 5px;
+}
+
+.tag {
+    padding: 1px 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.111);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tag:hover {
+    box-shadow: 0 0 5px var(--texto);
+}
+
+.projetos__tags--react{
+    background-color: rgb(141, 200, 255);
+}
+
+.projetos__tags--js{
+    background-color: rgb(245, 254, 136);
+}
+
+.projetos__tags--python{
+    background-color: rgb(141, 255, 128);
+}
+
+.projetos__tags--html{
+    background-color: rgb(255, 194, 125);
+}
+
+.projetos__tags--css{
+    background-color: rgb(108, 108, 255);
+}
