@@ -1,3 +1,4 @@
 # Portifolio
 Portifólio website contendo informações sobre mim e meus projetos
-## Ainda em desenvolvimento
+## Tecnologias usadas
+`HTML` `CSS` `JavaScript`

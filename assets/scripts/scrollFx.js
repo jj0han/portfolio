@@ -5,6 +5,7 @@ const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         entry.target.classList.toggle("visible", entry.isIntersecting)
         if(entry.isIntersecting) {
+            console.log(entry.target)
             observer.unobserve(entry.target)
         }
     })

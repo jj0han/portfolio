@@ -4,12 +4,10 @@ const menu = document.querySelectorAll(".menu__lista")
 
 botao.addEventListener("click", function() {
     menu.forEach(secao => {
+        secao.classList.toggle("hide")
         if(!secao.style.display || secao.style.display == "none") {
-            secao.style.opacity = "1"
             secao.style.display = "flex"
         } else {
-            secao.style.transition = "0.3s"
-            secao.style.opacity = "0"
             setTimeout(function() {
                 secao.style.display = "none"
             }, 500)

@@ -1,24 +1,16 @@
 .skills__grid {
-    width: calc(100% - 20px);
-    height: calc(100% - 70px);
     margin: 0;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
 }
 
-@media screen and (min-width: 640px){
+/* @media screen and (min-width: 640px){
     .skills__grid {
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 33% 33% 33%;
     }
 }
 
 @media screen and (min-width: 1024px){
     .skills__grid {
-        
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50% 50%;
     }
-}
+} */

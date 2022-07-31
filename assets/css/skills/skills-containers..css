@@ -1,11 +1,6 @@
 .skills__containers {
     padding-top: 10px;
     z-index: 1;
-    max-height: 200px;
-}
-
-@media screen and (min-width: 768px){
-    .skills__containers {
-        margin: 0 auto;
-    }
+    height: 200px;
+    margin: 0 4%;
 }
