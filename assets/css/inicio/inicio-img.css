@@ -2,20 +2,17 @@
     border-radius: 100%;
     display: block;
     margin: 20px auto;
-    width: 40%;
-}
-
-@media screen and (max-width: 375px){
-    .inicio__img {
-        padding: 0;
-    }
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
 }
 
 @media screen and (min-width: 768px){
     .inicio__img {
         border-radius: 10px;
         margin: 0;
-        object-fit: cover;
+        margin-left: 20px;
         width: 300px;
+        height: 300px;
     }
 }

@@ -45,6 +45,7 @@
     <link rel="stylesheet" href="assets/css/projetos/projetos-card.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-img.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-info.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos-descricao.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-tags.css">
     <link rel="stylesheet" href="assets/css/projetos/projetos-links.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape.css">
@@ -73,7 +74,7 @@
     <main class="principal">
         <section class="inicio">
             <div>
-                <img class="inicio__img" src="assets/img/logo.png" alt="">
+                <img class="inicio__img" src="assets/img/perfil.jpg" alt="">
                 <h1 class="inicio__titulo">Olá, meu nome é <strong class="inicio__negrito">João Bomfim</strong> e eu sou aspirante a desenvolvedor <strong class="inicio__negrito">front-end</strong></h1>
             </div>
             <!-- <p class="inicio__descricao"></p> -->
@@ -96,7 +97,7 @@
         <section id="sobre" class="spacer sobre">
             <h2 class="subtitulo">Sobre mim</h2>
             <p class="sobre__descricao">
-                Meu nome é João Victor Vieira Bomfim, tenho 19 anos. Nasci e cresci em Brasília-DF, e após me formar no Colégio Militar de Brasília (CMB), meu pai, que é militar do exército foi transferido para Campo Grande-MS em janeiro de 2021, onde moro atualmente.
+                Meu nome é João Victor Vieira Bomfim, tenho 19 anos. Nasci e cresci em Brasília-DF, e me formei no Colégio Militar de Brasília (CMB).
             </p>
             <p class="sobre__descricao">
                 Desde pequeno sempre tive muito interesse por tecnologias. Então, decidi explorar o mundo da programação, e aos 17 anos, eu me decidi que eu iria seguir carreira na área de TI.
@@ -104,6 +105,7 @@
             <p class="sobre__descricao">
                 Atualmente estou cursando Sistemas para Internet pelo Instituto Federal de Mato Grosso do Sul (IFMS), atualmente no terceiro semestre e participante do projeto Oracle Next Education na Alura.
             </p>
+            <p class="sobre__descricao">Sobre meus hobbies, gosto muito de coisas relacionadas à cultura Geek em geral. No meu tempo livre gosto de jogar videogame com meus amigos, assistir séries e animes, e as vezes, também tiro um tempo para desenhar.</p>
         </section>
         <section id="skills" class="spacer skills">
             <h2 class="subtitulo">Skills</h2>
@@ -181,13 +183,55 @@
             <h2 class="subtitulo">Projetos</h2>
             <div class="projetos__containers">
                 <div class="projetos__card scroll">
+                    <img class="projetos__img" src="assets/img/tenzies.png" alt="tenzies">
+                    <div class="projetos__info">
+                        <h3 class="projetos__titulo">
+                            Tenzies
+                        </h3>
+                        <p class="projetos__descricao">
+                            Tenzies se trata de um jogo infantil no qual o objetivo é juntar os dados todos com os mesmos valores.
+                        </p>
+                        <div class="projetos__tags">
+                            <div class="tag projetos__tags--js">JavaScript</div>
+                            <div class="tag projetos__tags--react">ReactJS</div>
+                            <div class="tag projetos__tags--html">HTML</div>
+                            <div class="tag projetos__tags--css">CSS</div>
+                        </div>
+                        <div class="projetos__links">
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/tenzies" target="_blank">Repositório</a>
+                            <a class="projetos__link--demo" href="https://jj0han.github.io/tenzies/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos__card scroll">
+                    <img class="projetos__img" src="assets/img/cep.png" alt="meme generator">
+                    <div class="projetos__info">
+                        <h3 class="projetos__titulo">
+                            Preencher endereço a partir do CEP 
+                        </h3>
+                        <p class="projetos__descricao">
+                            Preenche o endereço automaticamente de acordo com o CEP digitado. O aplicativo faz uma busca à API e retorna os dados encontrados.
+                        </p>
+                        <div class="projetos__tags">
+                            <div class="tag projetos__tags--js">JavaScript</div>
+                            <div class="tag projetos__tags--react">ReactJS</div>
+                            <div class="tag projetos__tags--html">HTML</div>
+                            <div class="tag projetos__tags--css">CSS</div>
+                        </div>
+                        <div class="projetos__links">
+                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/buscador-cep" target="_blank">Repositório</a>
+                            <a class="projetos__link--demo" href="https://jj0han.github.io/buscador-cep/" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos__card scroll">
                     <img class="projetos__img" src="assets/img/meme-generator.png" alt="meme generator">
                     <div class="projetos__info">
                         <h3 class="projetos__titulo">
                             Meme Generator
                         </h3>
                         <p class="projetos__descricao">
-                            Refeito do zero, colocando em prática os conceitos de Componentização, useState, useEffect, props e consumo de API. Terceiro projeto do curso de ReactJS do Scrimba.
+                            Refeito do zero, utiliza uma API externa para as imagens. Os textos são sincronizados aos inputs, assim, o usuário pode ver o seu texto sendo escrito na imagem em tempo real.
                         </p>
                         <div class="projetos__tags">
                             <div class="tag projetos__tags--js">JavaScript</div>
@@ -223,27 +267,6 @@
                     </div>
                 </div>
                 <div class="projetos__card scroll">
-                    <img class="projetos__img" src="assets/img/business-card.png" alt="">
-                    <div class="projetos__info">
-                        <h3 class="projetos__titulo">
-                            Digital Business Card
-                        </h3>
-                        <p class="projetos__descricao">
-                            Componentização com ReactJS. Primeiro desafio solo do curso de ReactJS do Scrimba.
-                        </p>
-                        <div class="projetos__tags">
-                            <div class="tag projetos__tags--js">JavaScript</div>
-                            <div class="tag projetos__tags--react">ReactJS</div>
-                            <div class="tag projetos__tags--html">HTML</div>
-                            <div class="tag projetos__tags--css">CSS</div>
-                        </div>
-                        <div class="projetos__links">
-                            <a class="projetos__link--repositorio" href="https://github.com/jj0han/business-card" target="_blank">Repositório</a>
-                            <a class="projetos__link--demo" href="https://jj0han.github.io/business-card/" target="_blank">Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="projetos__card scroll">
                     <img class="projetos__img" src="assets/img/cev.png" alt="">
                     <div class="projetos__info">
                         <h3 class="projetos__titulo">
@@ -259,23 +282,6 @@
                         <div class="projetos__links">
                             <a class="projetos__link--repositorio" href="https://github.com/jj0han/cev-android" target="_blank">Repositório</a>
                             <a class="projetos__link--demo" href="https://jj0han.github.io/cev-android/" target="_blank">Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="projetos__card scroll">
-                    <img class="projetos__img" src="assets/img/python.webp" alt="">
-                    <div class="projetos__info">
-                        <h3 class="projetos__titulo">
-                            Cadastro de pessoas
-                        </h3>
-                        <p class="projetos__descricao">
-                            Aplicativo de console simples de cadastro de pessoas.
-                        </p>
-                        <div class="projetos__tags">
-                            <div class="tag projetos__tags--python">Python</div>
-                        </div>
-                        <div class="projetos__links">
-                            <a class="projetos__link--repositorio" href="https://github.com/jj0han" target="_blank">Repositório</a>
                         </div>
                     </div>
                 </div>

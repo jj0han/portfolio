@@ -3,8 +3,10 @@
     background-color: var(--BW);
     border-radius: var(--borderRadius);
     transform: translateY(100px);
+    margin: auto;
     opacity: 0;
     transition: 0.8s;
+    max-width: 385px;
 }
 
 .visible {
@@ -14,7 +16,8 @@
 
 @media screen and (min-width: 768px){
     .formacao__card {
-        width: 40%;
+        margin: 0;
         flex-wrap: wrap;
+        width: 40%;
     }
 }

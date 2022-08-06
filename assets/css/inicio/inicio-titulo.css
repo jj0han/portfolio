@@ -9,13 +9,20 @@
 
 @media screen and (min-width: 400px){
     .inicio__titulo {
-        font-size: 2.7rem;
-        padding: 20px;
+        padding: 0 20px 10px;
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .inicio__titulo {
+        font-size: 2.5rem;
     }
 }
 
 @media screen and (min-width: 768px){
     .inicio__titulo {
         max-width: 490px;
+        padding: 20px 20px 20px 0;
     }
 }

@@ -10,7 +10,7 @@ botao.addEventListener("click", function() {
         } else {
             setTimeout(function() {
                 secao.style.display = "none"
-            }, 500)
+            }, 400)
         }
     })
 })
