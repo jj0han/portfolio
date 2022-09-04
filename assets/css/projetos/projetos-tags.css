@@ -24,6 +24,10 @@
     background-color: rgb(245, 254, 136);
 }
 
+.projetos__tags--ts{
+    background-color: rgb(99, 101, 227);
+}
+
 .projetos__tags--python{
     background-color: rgb(141, 255, 128);
 }
@@ -33,5 +37,5 @@
 }
 
 .projetos__tags--css{
-    background-color: rgb(108, 108, 255);
+    background-color: rgb(120, 120, 255);
 }
